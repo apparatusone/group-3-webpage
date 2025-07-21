@@ -97,6 +97,8 @@ button:hover {
     display: block;
 }
 
+
+/* css for Devin */
 .card:has(#bio3) {
     background: linear-gradient(135deg, #688baf, #597da1);
     background-size: cover;
@@ -107,7 +109,7 @@ button:hover {
     font-size: 1.2rem;
 }
 
-.moodboard {
+.moodboard-dev {
     margin-top: 10px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -121,8 +123,8 @@ button:hover {
     margin-right: auto;
 }
 
-.moodboard img,
-.moodboard a {
+.moodboard-dev img,
+.moodboard-dev a {
     width: 100%;
     height: 100%;
     object-fit: cover;
