@@ -72,7 +72,6 @@ h2 {
 .bio {
     display: none;
     margin-top: 10px;
-    color: #555;
 }
 
 /* Button styling */
@@ -96,6 +95,12 @@ button:hover {
     object-fit: cover;
     margin: 10px auto;
     display: block;
+}
+
+.card:has(#bio3) {
+    background: linear-gradient(135deg, #688baf, #597da1);
+    background-size: cover;
+    position: relative;
 }
 
 #bio3 p {
