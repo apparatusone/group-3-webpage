@@ -150,3 +150,46 @@ button:hover {
     height: 50px;
     object-fit: cover;
 }
+
+
+/* css for Jamal */
+
+.card:has(#bio4) {
+    background: linear-gradient(100deg, #3d4ba1, #5c75d6);
+    background-size: cover;
+    position: relative;
+}
+
+#bio4 p {
+    font-size: 1.2rem;
+}
+
+.moodboard-jamal {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0;
+    justify-items: stretch;
+    align-items: stretch;
+    width: 75%;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.moodboard-jamal img,
+.moodboard-jamal a {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin: 0;
+    border-radius: 0;
+    font-size: 0.8rem;
+    text-align: justify;
+    background: #ffffff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
